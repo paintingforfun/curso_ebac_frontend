@@ -115,3 +115,7 @@ section h2 {
 #tecnologia {
     background: rgba(15, 15, 5, 0.4);
 }
+
+#tecnologia .articles article a {
+    background: rgba(31, 72, 153, 0.4);
+}
