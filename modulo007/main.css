@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-weight: 300;
+}
+
+
+
+/* .sucesso {
+    filter: blur(5px);
+    position: absolute;
+    background-image: url(./images/sky.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+} */
+
+
+
+
+
+
+/* ERROR DISPLAY */
+
+    .error-off{
+        display: none;
+    }
+
+
+    .error-on {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+    }
+
+    .error-on p {
+        background-color: rgb(199, 50, 50, 0.3);
+    }
+
+    .container-off {
+        filter: blur(5px);        
+    }
+
+/* -------- */
+
+
+
+
+
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 116, 122);
+}
+
+.box {
+    border-radius: 1%;
+    border-top: 10px solid rgb(29, 61, 207);
+    width: 380px;
+    height: 500px;
+    background: #fff;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 16px;
+    width: 300px;
+    border: none ;
+    text-align: center;
+    display: block;   
+    background-color: #dad4d4b2;
+}
+
+
+button {
+    background: #009463;
+    color: #fff;
+}
+
+form h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.lucro-porcentagem {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    display: block;
+    color: #000000;
+    padding: 5px;
+    display: none;
+}
