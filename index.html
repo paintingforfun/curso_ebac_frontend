@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" required placeholder="Nome Completo">
+                <label for="email">Email</label>
+                <input id="email" type="email" required placeholder="Seu email principal">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" type="tel" required placeholder="Telefone">
+                <label for="cpf">CPF</label>
+                <input id="cpf" type="number" required placeholder="CPF">
+                <label for="endereço">Endereço</label>
+                <input id="endereço" type="text" required placeholder="Endereço Completo">
+                <label for="cep">CEP</label>
+                <input id="cep" type="number" required placeholder="CEP">
+                <button>Cadaster-se agora</button>
+            </form>
+        </div>
+    </div>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000');
+            $('#cpf').mask('000.000.000-00');
+            $('#cep').mask('00000-000');
+        })
+    </script>
+
+</body>
+</html>
