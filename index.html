@@ -22,23 +22,18 @@
                 <label for="telefone">Telefone</label>
                 <input id="telefone" type="tel" required placeholder="Telefone">
                 <label for="cpf">CPF</label>
-                <input id="cpf" type="number" required placeholder="CPF">
+                <input id="cpf" type="tel" required placeholder="CPF">
                 <label for="endereço">Endereço</label>
                 <input id="endereço" type="text" required placeholder="Endereço Completo">
                 <label for="cep">CEP</label>
-                <input id="cep" type="number" required placeholder="CEP">
+                <input id="cep" type="tel" required placeholder="CEP">
                 <button>Cadaster-se agora</button>
             </form>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./JS/jquery.mask.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#telefone').mask('(00) 00000-0000');
-            $('#cpf').mask('000.000.000-00');
-            $('#cep').mask('00000-000');
-        })
-    </script>
+    <script src="./main.js"></script>
 
 </body>
 </html>
